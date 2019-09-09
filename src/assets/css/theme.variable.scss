@@ -1,0 +1,7 @@
+/* 改变主题色变量 */
+$--color-primary: #7fb127 !default;
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~@fe/sand-ui/lib/styles/fonts';
+
+@import "~@fe/sand-ui/src/styles/index";
+// @import '@fe/sand-ui/lib/styles/index.css';

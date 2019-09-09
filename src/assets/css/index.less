@@ -1,0 +1,32 @@
+@import './mixin.less';
+@import './reset.less';
+@import './sandCommon.less';
+//@import './element-ui.less'; // element-ui样式重写
+// @import '../fonts/iconfont.css'; // iconfont直接使用download的，减小更新成本
+@import 'https://at.alicdn.com/t/font_1296621_ume5e6qixp.css';
+
+html, #app {
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  color: #333;
+  background: #eee;
+  height: 100%;
+  overflow: hidden;
+}
+
+// 常用mixin注入，使用u-xxx表示
+.u-clearfix {
+  .clearfix();
+}
+.u-ellipsis {
+  .textEllipsis();
+}
+.u-break {
+  .textBreak();
+}

@@ -1,0 +1,53 @@
+.clearfix {
+  &:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    font-size: 0;
+    height: 0;
+  }
+}
+
+.textEllipsis {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textBreak {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.color-blue{
+  color:#4A90E2;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.com-ban{
+  padding-left: 6px;
+  border-left: 6px solid #7FB127;
+}
+.filter-box{
+  display: flex;
+  flex-wrap: wrap;
+  .mar-r30{
+     margin-right:30px;
+     }
+     .mar-r20{
+       margin-right:20px;
+     }
+  .filter-item{
+    .item-name{
+      color:#333;
+      font-size: 14px;
+      margin-right:10px;
+    }
+    .item-input{
+      display: inline-block;
+    }
+  }
+}
